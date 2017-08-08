@@ -1,49 +1,38 @@
-![intro](https://i.imgur.com/hEM7Tuf.png)
-# SpikeBot
-#### *Moderation, fun, utility, stats commands and much more!*
+# KnightBot 2.0
+
+#### *Moderation, Fun, Utility, and much more to come!*
+
 <img src='https://img.shields.io/badge/build-passing-brightgreen.svg'> [<img src="https://img.shields.io/badge/discord-py-orange.svg">](https://github.com/Rapptz/discord.py) [<img src='https://img.shields.io/badge/python-3.5-brightgreen.svg'>](https://python.org)
 
+[<img src="https://discordapp.com/api/guilds/299358597803147264/widget.png?style=banner2">](https://discord.gg/cqgY2XZ) 
 
-[<img src="https://discordapp.com/api/guilds/338500407120756737/widget.png?style=banner2">](https://discord.gg/JVw6nhD) 
+For those of you who don't know the sad, sad story of KnightBot, he was a rogue Knight who stumbled onto Discord just as verix was getting ready to make a bot with discord.py. However, KnightBot was scrapped in favor of SpikeBot, the cute little cactus from the rival game which would soon result in Clash Royale's demise. Now he's back... and he's looking for revenge!
+#### TL; DR: nothing important. Keep reading.
 
-## Windows Installation
-Download python. During setup, make sure you added it to %PATH% (the second option).
+If you want the bot, you can either invite the official version at https://bot.discord.io/kbot or clone your own instance.
+If you want to clone your own instance, read on.
 
-Download this repository by clicking the green button in the top right, then "Download ZIP".
+## For Pros: (Short version)
+Clone this repository. Make sure you have python 3.5.x and pip installed. Install BeautifulSoup4, discord.py, requests, and PythonGists with pip. Go into \cogs\utils\t_config.json, and change the value of token to your bot's token and the value of opened to 1. Now run bot.py. 
 
-Unzip the file.
+## For Noobs: (Long version)
+Install Python. KnightBot needs the latest 3.5.x. Try to avoid 3.6 for the time being. You can get python at https://python.org
+**Important note:** When installing, make sure to check the "Add to %PATH%" option. It will make your life so much easier. Trust me.
 
-## Linux Installation
-Download python, whether you want to use yum, or apt-get, or whatever your favorite package manager is. You can find the info through google, and since each version of Linux is slightly different, I'm not going to go into detail.
+Clone this repository. If you need help with that, check this out: https://help.github.com/articles/cloning-a-repository/
 
-Download git. Again, use whatever package manager you want.
-
-Clone the repository: 
-
+Once that's done, run command prompt as administrator (you can see this option by right clicking the start button) and run the following commands:
 ```
-git clone https://github.com/verixx/SpikeBot
+pip install requests
+pip install PythonGists
+pip install discord.py
+pip install BeautifulSoup4
 ```
-
-
-## Requirements
-This repository is for development only, I would rather you invite the official bot to your server than run your own instance.
-
-You need to install the following with pip install to run the bot:
-```py
-discord.py
-requests
-PythonGists
-BeatifulSoup4
-```
-## Setup
-Open a terminal in the directory of the bots location and type
-```
-$ python3 bot.py
-```
-On first start the launcher will run and you will need to input data. After that the bot will launch without setup neccessary, there is an optional reset configuration option on launch.
+Now, close the command prompt window. Head on over to the cogs folder, go into the utils folder, in the file t_config.json, and change the value of "token" to your bot's token. How do you get a bot token, you ask? Go to https://discordapp.com/developers/applications/me, click "New App", name it whatever you want your bot's name to be and change the avatar if you like, click "Create Bot User" and save your changes. Then, click "show token". Copy that value and put it in t_config.json. **Make sure the token is in quotes.**
+Never, ever give somebody else your bot's token. If they get it, they are essentially the bot and can do anything with it.
+Once that's all done, open bot.py.
 
 ## Commands
-
 The default set of modules includes:
 * Moderation commands
 * Fun/Misc commands
@@ -54,7 +43,4 @@ The default set of modules includes:
 * Brawl Stars Stats commands
 
 ## Support Me
-
-It would be greatly appreciated if you can support me by joining my discord server and socialising with me! Join it to stay up to date on updates and announcements. Stay for a good time! Join here: https://discord.io/kbot
-
-
+I'd really appreciate if you joined the server above. It's not a support server, but I love to hang out and chill there. Most of the time, if you need help, just tag me @Victini#7460 and if I'm not sleeping, I'll help you. Also, check out verix's SpikeBot: https://github.com/verixx/SpikeBot
