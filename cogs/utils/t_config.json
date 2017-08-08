@@ -1,82 +1,10 @@
 {
-    "323349192837693440": {
-        "!name": "SpikeBot",
-        "admin_chat": null,
-        "admin_role": null,
-        "aliases": {},
-        "announcements": null,
-        "autorole": null,
-        "leave": {
-            "channel": "default",
-            "msg": "{0.name} has just left the server.",
-            "status": false
-        },
-        "levels": false,
-        "mod_log": null,
-        "mod_role": null,
-        "prefix": "!",
-        "selfroles": [],
-        "tournaments": null,
-        "welcome": {
-            "channel": "default",
-            "msg": "Welcome {0.mention} to {1.name}!",
-            "status": true
-        }
-    },
-    "338048567270834197": {
-        "!name": "UB Support Server",
-        "admin_chat": "338048567270834197",
-        "admin_role": "338050086397411330",
-        "aliases": {},
-        "announcements": "338048567270834197",
-        "autorole": 338050086397411330,
-        "leave": {
-            "channel": "default",
-            "msg": "{0.name} has just left the server.",
-            "status": false
-        },
-        "levels": false,
-        "mod_log": "338048567270834197",
-        "mod_role": "338050086397411330",
-        "prefix": "?",
-        "selfroles": [],
-        "tournaments": "338048567270834197",
-        "welcome": {
-            "channel": "default",
-            "msg": "test",
-            "status": false
-        }
-    },
-    "344545043157352451": {
-        "!name": "KnightBot 2.0",
-        "admin_chat": null,
-        "admin_role": null,
-        "aliases": {},
-        "announcements": null,
-        "autorole": null,
-        "leave": {
-            "channel": "default",
-            "msg": "{0.name} has just left the server.",
-            "status": false
-        },
-        "levels": false,
-        "mod_log": null,
-        "mod_role": null,
-        "prefix": "!",
-        "selfroles": [],
-        "tournaments": null,
-        "welcome": {
-            "channel": "default",
-            "msg": "Welcome {0.mention} to {1.name}!",
-            "status": true
-        }
-    },
     "bot": {
         "aliases": {},
         "opened": 0,
         "owner": "307133814834987008",
         "selfroles": [],
-        "token": "MzQ0NTI5OTExODc0MDYwMjg5.DGuMHg.-8xbRK4aJq9215SqD43z-8YKrfk",
+        "token": "",
         "version": "1.5.6"
     }
 }
