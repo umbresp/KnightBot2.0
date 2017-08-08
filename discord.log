@@ -1,9 +1,1 @@
-2017-08-08 16:46:39,138:INFO:discord.client: on_ready has successfully been registered as an event
-2017-08-08 16:46:39,139:INFO:discord.client: on_member_join has successfully been registered as an event
-2017-08-08 16:46:39,139:INFO:discord.client: on_command has successfully been registered as an event
-2017-08-08 16:46:39,139:INFO:discord.client: on_member_remove has successfully been registered as an event
-2017-08-08 16:46:39,140:INFO:discord.client: on_server_join has successfully been registered as an event
-2017-08-08 16:46:39,140:INFO:discord.client: on_command_error has successfully been registered as an event
-2017-08-08 16:46:40,886:INFO:discord.client: logging in using static token
-2017-08-08 16:46:42,375:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6
-2017-08-08 16:46:42,378:INFO:discord.gateway: sent the identify payload to create the websocket
+
