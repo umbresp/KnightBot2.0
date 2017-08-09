@@ -225,6 +225,14 @@ class Mod():
             await asyncio.sleep(1.5)
 
     @commands.command(pass_context = True,no_pm = True)
+    async def shutdown(self,ctx):
+        if ctx.message.author == ctx.message.server.owner or ctx.message.author.id == owner:
+            await self.bot.say("Shutting down...")
+            await self.bot.logout()
+        else:
+            await self.bot.say("Cheeky boi! Don't do that!")
+
+    @commands.command(pass_context = True,no_pm = True)
     async def msg(self,ctx,*,msg : str):
         server = ctx.message.server
         members_messaged = 0
