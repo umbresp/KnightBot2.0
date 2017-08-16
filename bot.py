@@ -10,6 +10,8 @@ import json
 import logging
 import random
 from cogs.utils.paginator import Pages
+import os
+
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.INFO)
