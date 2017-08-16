@@ -168,7 +168,7 @@ async def on_member_remove(member):
 async def on_server_join(server):
     await bot.send_message(server,
         "**Hello!** *Thanks for inviting me to your server!*"
-        " **Get started with:** `?config set` and `?help`")
+        " **Get started with:** `!config set` and `!help`")
 
 def fmt_help(page):
     cmd = ''
