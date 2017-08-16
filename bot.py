@@ -22,10 +22,14 @@ logger.addHandler(handler)
  
 
 info = launcher.bot()
-token = info['token']
+
+if 'TOKEN' in os.environ:
+    heroku = True
+    token = os.environ['TOKEN']
+else:
+    token = info['token']
+
 owner = info['owner']
-
-
 
 startup_extensions = [
 
