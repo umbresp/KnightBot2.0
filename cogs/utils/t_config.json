@@ -1,4 +1,124 @@
 {
+    "299358597803147264": {
+        "!name": "Clash Royale Arena (CRA)",
+        "admin_chat": "316197304522506241",
+        "admin_role": "299929872514678785",
+        "aliases": {},
+        "announcements": "316064349280272385",
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": "321059400188166154",
+        "mod_role": "339109915882815489",
+        "prefix": "%",
+        "selfroles": [],
+        "tournaments": "316063482548060160",
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
+    "338048567270834197": {
+        "!name": "Victini's Bots",
+        "admin_chat": null,
+        "admin_role": null,
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": null,
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
+    "344635898526171136": {
+        "!name": "TestingZone",
+        "admin_chat": null,
+        "admin_role": null,
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": null,
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
+    "345239708231532544": {
+        "!name": "Bot Support and stuff",
+        "admin_chat": null,
+        "admin_role": null,
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": null,
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
+    "345787308282478592": {
+        "!name": "Grok Learning",
+        "admin_chat": null,
+        "admin_role": "345796258557853698",
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": "345796269110722560",
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
     "bot": {
         "aliases": {},
         "opened": 0,
