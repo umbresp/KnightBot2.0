@@ -1,4 +1,28 @@
 {
+    "278918056493711360": {
+        "!name": "The Clan of SKYFL\u00c6M 3",
+        "admin_chat": null,
+        "admin_role": "342149638603931650",
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": null,
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
     "299358597803147264": {
         "!name": "Clash Royale Arena (CRA)",
         "admin_chat": "316197304522506241",
@@ -20,6 +44,102 @@
         "welcome": {
             "channel": "default",
             "msg": "Welcome {0.mention} to {1.name}!",
+            "status": false
+        }
+    },
+    "300234423994023937": {
+        "!name": "ThunderGodTribe",
+        "admin_chat": null,
+        "admin_role": null,
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": null,
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
+    "301673620923482122": {
+        "!name": "CS:GO",
+        "admin_chat": null,
+        "admin_role": null,
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": null,
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
+    "333628459819597837": {
+        "!name": "Kakro",
+        "admin_chat": null,
+        "admin_role": null,
+        "aliases": {},
+        "announcements": null,
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": null,
+        "mod_role": null,
+        "prefix": "!",
+        "selfroles": [],
+        "tournaments": null,
+        "welcome": {
+            "channel": "default",
+            "msg": "Welcome {0.mention} to {1.name}!",
+            "status": true
+        }
+    },
+    "333892071071154178": {
+        "!name": "Clash Royale | Svearna 06",
+        "admin_chat": "344929627229388811",
+        "admin_role": "347683457436090370",
+        "aliases": {},
+        "announcements": "339061395502923776",
+        "autorole": null,
+        "leave": {
+            "channel": "default",
+            "msg": "{0.name} has just left the server.",
+            "status": false
+        },
+        "levels": false,
+        "mod_log": "347684541852549120",
+        "mod_role": "334189229330530306",
+        "prefix": "%",
+        "selfroles": [],
+        "tournaments": "333904454841532416",
+        "welcome": {
+            "channel": "347693975693557771",
+            "msg": "Hello {user}! Welcome to {server}! Enjoj your stay ;)",
             "status": true
         }
     },
@@ -86,7 +206,7 @@
         "levels": false,
         "mod_log": null,
         "mod_role": null,
-        "prefix": "!",
+        "prefix": "%",
         "selfroles": [],
         "tournaments": null,
         "welcome": {
@@ -116,7 +236,7 @@
         "welcome": {
             "channel": "default",
             "msg": "Welcome {0.mention} to {1.name}!",
-            "status": true
+            "status": false
         }
     },
     "bot": {
